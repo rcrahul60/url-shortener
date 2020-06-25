@@ -1,10 +1,10 @@
-# Url-Shortener 
+# - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`Url-Shortener 
 
 ### Url Shortener using Django and Graphql
 
 ## Quickstart
 
-### For installing url-shortener just create your virtual environment
+### For installing url shortener just create your virtual environment
 
 ``` pip insall virtualenv -p python3 ```
 
@@ -17,15 +17,15 @@
 ### Then just run the app on localhost:8000/graphql and you can query like this
 
 ``` 
-    query {
-    urls {
-        id
-        fullUrl
-        urlHash
-        clicks
-        createdAt
-    }
-    }
+    query{
+        urls {
+            id
+            fullUrl
+            urlHash
+            clicks
+            createdAt
+            }
+        }
 
 ```
 ### if you want to create data
